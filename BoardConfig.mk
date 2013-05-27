@@ -28,6 +28,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 TARGET_KERNEL_CONFIG := geeb-fs_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/Houcha
 
+#TARGET_KERNEL_CONFIG := j1a-perf_defconfig
+#TARGET_KERNEL_SOURCE := kernel/lge/ME
+
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
 
