@@ -48,8 +48,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnCdmaDevice=0 \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.default_network=9 \
-    ro.telephony.call_stat_poll=true
-    ro.ril.def.preferred.network=9
+    ro.telephony.call_stat_poll=true \
+    ro.ril.def.preferred.network=9 \
+    ro.ril.tx_headphone_override=Handset
 
 # Vold configuration
 PRODUCT_COPY_FILES += \
